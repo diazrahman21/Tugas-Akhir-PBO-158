@@ -8,7 +8,7 @@ class OnlineTest extends JFrame implements ActionListener {
     JButton b1, b2;
     ButtonGroup bg;
     int count = 0, current = 0, x = 1, now = 0;
-    int[] m = new int[20];
+    int[] m = new int[10];
 
     OnlineTest(String s) {
         super(s);
@@ -57,7 +57,7 @@ class OnlineTest extends JFrame implements ActionListener {
             current++;
             set();
 
-            if (current == 19) {
+            if (current == 9) {
                 b1.setEnabled(false);
                 b2.setText("Result");
                 b2.setBackground(Color.GREEN);
@@ -192,6 +192,6 @@ class OnlineTest extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new OnlineTest("Tes Wawasan Kebangsaan?");
+        new OnlineTest("Tes Wawasan Kebangsaan");
     }
 }
