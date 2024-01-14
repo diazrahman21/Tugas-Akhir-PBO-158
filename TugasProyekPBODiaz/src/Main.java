@@ -192,6 +192,6 @@ class OnlineTest extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new OnlineTest("Apakah Kamu seorang jawa sejati?");
+        new OnlineTest("Tes Wawasan Kebangsaan?");
     }
 }
